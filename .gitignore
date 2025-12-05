@@ -1,0 +1,61 @@
+# =========================
+# Node / NPM
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Build outputs
+# =========================
+dist/
+build/
+out/
+coverage/
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editors / IDEs
+# =========================
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.iml
+
+# =========================
+# Misc
+# =========================
+*.log
+*.tmp
+*.bak
+
+# =========================
+# Package artifacts
+# =========================
+*.tgz
+
+# =========================
+# Cache directories
+# =========================
+.cache/
+.eslintcache

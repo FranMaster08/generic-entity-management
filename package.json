@@ -1,0 +1,31 @@
+{
+  "name": "generic-entity-management",
+  "version": "1.0.0",
+  "description": "Generic entity manager with pluggable strategies (InMemory, TypeORM, SQL adapter) including filters and pagination.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "strategy",
+    "typescript",
+    "typeorm",
+    "repository",
+    "pagination",
+    "generic",
+    "clean-architecture"
+  ],
+  "author": "Francisco Javier Jiménez Cohen",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "peerDependencies": {
+    "typeorm": ">=0.3.0"
+  }
+}
